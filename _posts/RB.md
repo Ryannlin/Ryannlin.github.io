@@ -51,7 +51,7 @@ author: LWL
 
 如下图所示，即是一颗红黑树(下图引自wikipedia：<http://t.cn/hgvH1l>)：
 
-![](../images/rbtree/1.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/1.png)
 
 上文中我们所说的 "叶结点" 或"NULL结点"，它不包含数据而只充当树在此结束的指示，这些结点以及它们的父结点，在绘图中都会经常被省略。
 
