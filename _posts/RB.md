@@ -65,7 +65,7 @@ author: LWL
 
 1.左旋  
 
-![](../images/rbtree/2.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/2.jpg)
 
 如上图所示：  
 
@@ -94,7 +94,7 @@ author: LWL
 
 右旋与左旋差不多，再此不做详细介绍。  
 
-![](../images/rbtree/3.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/3.jpg)
 
 对于树的旋转，能保持不变的只有原树的搜索性质，而原树的红黑性质则不能保持，在红黑树的数据插入和删除后可利用旋转和颜色重涂来恢复树的红黑性质。  
 
@@ -214,11 +214,11 @@ RB-INSERT-FIXUP（T,z）
 
 针对情况1，变化前（图片来源：saturnman）[当前结点为4结点]：  
 
-![](../images/rbtree/4.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/4.png)
 
 变化后：  
 
-![](../images/rbtree/5.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/5.png)
 
 **插入修复情况2：当前结点的父结点是红色,叔叔结点是黑色，当前结点是其父结点的右子**  
   对策：当前结点的父结点做为新的当前结点，以新当前结点为支点左旋。即如下代码所示：
@@ -229,11 +229,11 @@ RB-INSERT-FIXUP（T,z）
 ```
 如下图所示，变化前[当前结点为7结点]：  
 
-![](../images/rbtree/6.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/6.png)
 
 变化后：
 
-![](../images/rbtree/7.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/7.png)
 
 **插入修复情况3：当前结点的父结点是红色,叔叔结点是黑色，当前结点是其父结点的左子**  
 解法：父结点变为黑色，祖父结点变为红色，在祖父结点为支点右旋，操作代码为：
@@ -247,11 +247,11 @@ RB-INSERT-FIXUP（T,z）
 
 如下图所示[当前结点为2结点]  
 
-![](../images/rbtree/8.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/8.png)
 
 变化后：  
 
-![](../images/rbtree/9.png)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/9.png)
 
 
 
@@ -382,11 +382,11 @@ RB-DELETE-FIXUP(T, x)   恢复与保持红黑性质的工作
 ```     
 变化前：  
 
-![](../images/rbtree/10.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/10.jpg)
 
 变化后：  
 
-![](../images/rbtree/11.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/11.jpg)
 
 **删除修复情况2：当前结点是黑加黑且兄弟是黑色且兄弟结点的两个子结点全为黑色。**
   
@@ -399,11 +399,11 @@ RB-DELETE-FIXUP(T, x)   恢复与保持红黑性质的工作
 ```
 变化前：  
 
-![](../images/rbtree/12.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/12.jpg)
 
 变化后：  
 
-![](../images/rbtree/13.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/13.jpg)
 
 **删除修复情况3：当前结点颜色是黑+黑，兄弟结点是黑色，兄弟的左子是红色，右子是黑色。**
   
@@ -418,11 +418,11 @@ RB-DELETE-FIXUP(T, x)   恢复与保持红黑性质的工作
 ```
 变化前：  
 
-![](../images/rbtree/14.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/14.jpg)
 
 变化后：  
 
-![](../images/rbtree/15.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/15.jpg)
 
 **删除修复情况4：当前结点颜色是黑-黑色，它的兄弟结点是黑色，但是兄弟结点的右子是红色，兄弟结点左子的颜色任意。**  
   
@@ -437,11 +437,11 @@ RB-DELETE-FIXUP(T, x)   恢复与保持红黑性质的工作
 ```
 变化前：  
 
-![](../images/rbtree/16.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/16.jpg)
 
 变化后：  
 
-![](../images/rbtree/17.jpg)
+![](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/images/rbtree/17.jpg)
 
 ### 本文参考
 
