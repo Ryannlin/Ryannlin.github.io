@@ -61,7 +61,7 @@ class Solution:
 
 - 上述代码用了投机取巧的方法，把两个链表里面的数拿出来进行数学上的相加。然后将相加的数再转换成链表。效率还可以。
 
-```Python
+```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         # 定义一个进位标志
